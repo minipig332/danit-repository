@@ -1,0 +1,37 @@
+h2::selection{
+    color: red;
+    background-color: blueviolet;
+}
+
+h2::first-letter{
+    font-size: 100px;
+    color: aqua;
+    background-color: black;
+}
+h2::first-line{
+    background-color: blue;
+}
+
+input::placeholder{
+    color: red;
+    background-color: beige;
+}
+
+h2::after{
+    content:"   AFTER";
+}
+h2::before{
+    content:"BEFORE    ";
+}
+
+button{
+    color: antiquewhite;
+    background-color: burlywood;
+    border: none;
+    padding: 20px 40px;
+    border-radius: 20px;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
